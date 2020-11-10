@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // Target latest version of ECMAScript.  Babel will take care of
+    // compiling down when required.
+    "target": "esnext",
+    // The path that everything below in `paths` will resolve from, relative to tsconfig.json.
+    "baseUrl": ".",
+    // Custom path resolution.
+    "paths": {
+      "test/*": ["test/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Recommended"
+}
